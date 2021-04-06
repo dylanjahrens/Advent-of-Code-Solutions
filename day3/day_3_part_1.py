@@ -1,3 +1,6 @@
+#Sloppy first draft, only calculates the slope 3 right 1 down
+#Other file will take in any slope with a function!!!
+
 with open("day_3_input.txt", "r") as input_file:
     file_lines = input_file.readlines()
     input_grid = [line.strip() for line in file_lines]
